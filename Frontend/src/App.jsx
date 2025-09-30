@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import CascadingDropdown from "./components/CascadingDropdown";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register />} />
+          <Route path="/cascade" element={<CascadingDropdown/>} />
         </Routes>
       </div>
     </Router>

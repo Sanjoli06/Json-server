@@ -12,5 +12,19 @@
       "email": "test@gmail.com",
       "password": "123456"
     }
-  ]
+  ],
+
+  "locations": {
+     "India": {
+      "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+      "Karnataka": ["Bangalore", "Mysore"],
+      "Delhi": ["New Delhi"]
+    },
+    "USA": {
+      "California": ["Los Angeles", "San Francisco"],
+      "Texas": ["Houston", "Dallas"],
+      "Florida": ["Miami", "Orlando"]
+    }
+  }
+  
 }
